@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "dev/rishon/pokesmpforgeconnect/mixin/MultiplayerScreenMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen;m_7856_()V"
+    },
+    "dev/rishon/pokesmpforgeconnect/mixin/MainScreenMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/TitleScreen;m_7856_()V"
+    },
+    "dev/rishon/pokesmpforgeconnect/mixin/DisconnectScreenMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/DisconnectedScreen;m_7856_()V",
+      "shouldCloseOnEsc": "Lnet/minecraft/client/gui/screens/DisconnectedScreen;m_6913_()Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "dev/rishon/pokesmpforgeconnect/mixin/MultiplayerScreenMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen;m_7856_()V"
+      },
+      "dev/rishon/pokesmpforgeconnect/mixin/MainScreenMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/TitleScreen;m_7856_()V"
+      },
+      "dev/rishon/pokesmpforgeconnect/mixin/DisconnectScreenMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/DisconnectedScreen;m_7856_()V",
+        "shouldCloseOnEsc": "Lnet/minecraft/client/gui/screens/DisconnectedScreen;m_6913_()Z"
+      }
+    }
+  }
+}
