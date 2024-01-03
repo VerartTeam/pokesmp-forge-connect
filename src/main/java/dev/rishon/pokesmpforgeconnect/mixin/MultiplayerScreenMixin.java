@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(JoinMultiplayerScreen.class)
 public class MultiplayerScreenMixin {
 
-    @Inject(at = @At("TAIL"), method = "init")
+    @Inject(at = @At("TAIL"), method = "<init>")
     private void init(CallbackInfo info) {
         PokeSMPConnect.logger.info("Multiplayer Callback");
         PokeSMPConnect.connectToPokeSMP();

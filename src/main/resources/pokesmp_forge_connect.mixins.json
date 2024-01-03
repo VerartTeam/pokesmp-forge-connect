@@ -1,14 +1,12 @@
 {
   "required": true,
-  "minVersion": "0.8.4",
+  "minVersion": "0.8",
   "package": "dev.rishon.pokesmpforgeconnect.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "refmap": "pokesmp-forge-connect.refmap.json",
   "mixins": [
   ],
   "client": [
-    "DisconnectScreenMixin",
-    "MainScreenMixin",
     "MultiplayerScreenMixin"
   ],
   "injectors": {
